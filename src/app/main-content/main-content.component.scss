@@ -1,0 +1,54 @@
+section{
+    height: 554px;
+    background-color: #14084F;
+    color: #E15544;
+    font-family: 'Roboto Mono';
+    padding-top: 80px;    
+}
+.section-text{
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.section-text:hover{
+    color: #02f4bf;
+    cursor: pointer;
+}
+
+.contact-and-arrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-down{
+    margin-right: 100px;
+}
+
+.contact-me{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.contact-me:hover{
+    color: #02f4bf;
+    cursor: pointer;
+}
+
+h1, h2 {
+    color: #02f4bf;
+    font-family: 'Roboto Mono';
+    margin-left: 50px;
+    gap: 8px;
+
+}
+
+h1{
+    font-weight: 700;
+    font-size: 82px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 54px;
+}
