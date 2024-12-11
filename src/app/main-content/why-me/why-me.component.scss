@@ -1,11 +1,114 @@
 section{
     background-color: #14084F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    gap: 170px;
+    
+}
+
+.profil-img{
+    width: 539px;
+    height: 554px;
+}
+
+.text-content-with-some-imges{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
 }
 
 h2 {
     color: #E15544;
+    font-size: 54px;
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+}
+
+.first-h2{
+    text-align: end;
 }
 
 .text-for-why-me{
     color: #02f4bf;
+    text-align: end;
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.second-h2-and-location{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    height: 56px;
+}
+
+.img-for-why-me-part{
+    width: 33.31px;
+    height: 41px;
+}
+
+.seconde-h2{
+    text-align: start;
+}
+
+.location-text{
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.arrow-down{
+    display: flex;
+    margin-left: 138px;
+    height: 56px;
+}
+
+.arrows-and-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    gap: 270px;
+}
+
+.pc-img-and-text-for-remote{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pc-img-and-arrow-with-curve{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    >img {
+        padding-bottom: 10px;
+    }
+}
+
+.lets-talk-container{
+    height: 52px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    >p {
+        background-color: #02f4bf;
+        padding: 15px 30px 15px 30px;
+        font-family: 'Roboto Mono';
+        font-size: 18px;
+        font-weight: 500;
+        
+    }
+    >p:hover{
+        color: #E15544;
+        cursor: pointer;
+    }
 }

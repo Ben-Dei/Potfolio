@@ -1,0 +1,38 @@
+section {
+    background-color: #1f0b7f;
+    height: 100vh;
+    >h2 {
+        color: #E15544;
+        font-size: 54px;
+        font-weight: 500;
+        font-family: 'Roboto Mono';
+    }
+    > div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+
+        > img {
+            width: 88px;
+            height: 100px;
+        }
+    }
+}
+
+.img-with-text:hover{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    >div {
+        display: block;
+    }
+}
+
+.d-none{
+    display: none;
+    color: #02f4bf;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 18px;
+}
+

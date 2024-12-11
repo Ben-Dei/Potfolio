@@ -1,13 +1,20 @@
 section {
-    height: 554px;
+    height: 100vh;
     background-color: #14084F;
     color: #E15544;
     font-family: 'Roboto Mono';
     padding-top: 80px;    
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-evenly; 
     align-items: center; 
     padding: 0 50px; 
+}
+
+.profil-img{
+    width: 539px;
+    height: 554px;
+    padding-bottom: 72px;
+
 }
 
 .contact-and-arrow-h1andh2 {
