@@ -1,0 +1,17 @@
+section {
+    background-color: #14084F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #02f4bf;
+    h2,h3 {
+        color: #E15544;
+    }
+    
+}
+
+.different-direction{
+    display: flex;
+    flex-direction: row-reverse;
+}

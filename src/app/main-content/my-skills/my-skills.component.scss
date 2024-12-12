@@ -2,24 +2,26 @@ section {
     background-color: #1f0b7f;
     height: 100vh;
     padding-left: 100px;
-    >h2 {
+    padding-right: 100px;
+    h2 {
         color: #E15544;
         font-size: 54px;
         font-weight: 500;
         font-family: 'Roboto Mono';
         padding-bottom: 32px;
     }
-    > div {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 100px;
-        margin-bottom: 64px;
+}
 
-        > img {
-            width: 88px;
-            height: 100px;
-        }
-    }
+.icons-and-icon-with-hidden-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.icons-without-text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
 }
 
 .img-with-text:hover{
