@@ -5,16 +5,18 @@ section {
     flex-direction: column;
     color: #02f4bf;
     font-family: 'Roboto Mono';
-    height: 100vh;
+    height: 100%;
     gap: 48px;
     h2 {
         color: #E15544;
         font-weight: 500;
         font-size: 54px;
+        margin-bottom: 32px;
     }
     h3 {
         font-size: 48px;
         font-weight: 700;
+        margin-bottom: 32px;
     }
     span {
         font-size: 18px;
@@ -27,11 +29,11 @@ section {
     flex-direction: row-reverse;
     align-items: center;
     text-align: end;
-    padding-right: 750px;
-    gap: 32px;
+    padding-right: 800px;
+    gap: 48px;
     img {
-        height: 220px;
-        width: 360px
+        height: 371px;
+        width: 588px
     }
 } 
 
@@ -39,15 +41,15 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 750px;
-    gap: 32px;
+    padding-left: 800px;
+    gap: 48px;
     img {
-        height: 220px;
-        width: 360px
+        height: 371px;
+        width: 588px
     }
 }
 
 .img-poke {
-    width: 360px;
-    height: 147px;
+    height: 371px;
+    width: 588px;
 }
