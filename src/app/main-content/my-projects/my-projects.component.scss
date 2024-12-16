@@ -7,6 +7,8 @@ section {
     font-family: 'Roboto Mono';
     height: 100%;
     gap: 48px;
+    padding-bottom: 32px;
+    padding-top: 32px;
     h2 {
         color: #E15544;
         font-weight: 500;
@@ -52,4 +54,57 @@ section {
 .img-poke {
     height: 371px;
     width: 588px;
+}
+
+.little-discription{
+    display: flex;
+    margin-top: 24px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.orange-font-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #02f4bf solid;
+    border-width: medium;
+    width: 125px;
+    height: 52px;
+    color: #E15544;
+}
+
+.orange-font-color:hover {
+    color: #02f4bf;
+    cursor: pointer;
+}
+
+.green-button-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #02f4bf solid;
+    background-color: #02f4bf;
+    color: black;
+    width: 125px;
+    height: 52px;
+}
+
+.green-button-color:hover {
+    color: #E15544;
+    cursor: pointer;
+}
+
+.button-container-different-direction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 24px;
+    margin-top: 32px;
 }
