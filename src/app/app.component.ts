@@ -7,13 +7,14 @@ import { WhyMeComponent } from "./main-content/why-me/why-me.component";
 import { MySkillsComponent } from "./main-content/my-skills/my-skills.component"
 import { MyProjectsComponent } from "./main-content/my-projects/my-projects.component";
 import { MyReferencesComponent } from './main-content/my-references/my-references.component';
+import { ContactMeComponent } from "./main-content/contact-me/contact-me.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet,
     MainContentComponent, NavbarComponent, WhyMeComponent, MySkillsComponent, MyProjectsComponent,
-  MyReferencesComponent],
+    MyReferencesComponent, ContactMeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

@@ -1,0 +1,135 @@
+section {
+    background-color: #14084f;
+    color: #02f4bf;
+    font-family: 'Roboto Mono';
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    h2 {
+        color: #e15544;
+        font-weight: 500;
+        font-size: 54px;
+    }
+    span {
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+.email-and-name {
+    width: 507px;
+    height: 56px;
+    border: #02f4bf solid;
+    background-color: #14084f;
+}
+
+.email-and-name::placeholder {
+    color: #02f4bf;
+    opacity: 0.4;
+}
+
+.text-and-inputboxen{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.h2-and-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    padding-bottom: 24px;
+    img {
+        width: 42.75px;
+        height: 60.6px;
+    }
+}
+
+.span-and-2-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 32px;
+}
+
+.links-and-img-and-input-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+.links-and-img{
+    display: flex;
+    flex-direction: row;
+    gap: 420px;
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        a {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            color: #02f4bf;
+            gap: 24px;
+        }
+    }
+}
+
+.arrow-up{
+    cursor: pointer;
+}
+
+.arrow-straight-up-red {
+    width: 22px;
+    height: 50px;
+}
+
+.big-input-text {
+    border: #02f4bf solid;
+    background-color: #14084f;
+    width: 637px;
+    height: 144px;
+}
+
+.big-input-text::placeholder {
+    color: #02f4bf;
+    opacity: 0.4;
+}
+
+.check-box-and-text-and-send{
+    display: flex;
+    align-items: center;
+    gap: 328px;
+}
+
+.check-box-and-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    span{
+        a {
+            text-decoration: none;
+            color: #e15544;
+        }
+    }
+}
+
+.check-box:hover {
+    cursor: pointer;
+}
+
+.send-button{
+    width: 104px;
+    height: 52px;
+    color: grey;
+    border: grey solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
