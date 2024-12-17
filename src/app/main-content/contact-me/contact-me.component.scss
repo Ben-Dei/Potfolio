@@ -24,6 +24,10 @@ section {
     background-color: #14084f;
 }
 
+.email-and-name[type=text]{
+    color: #02f4bf;
+}
+
 .email-and-name::placeholder {
     color: #02f4bf;
     opacity: 0.4;
@@ -93,6 +97,10 @@ section {
     background-color: #14084f;
     width: 637px;
     height: 144px;
+}
+
+.big-input-text[type=text]{
+    color: #02f4bf;
 }
 
 .big-input-text::placeholder {
